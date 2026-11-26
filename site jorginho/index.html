@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Garagem 1000 — Contratação de Shows</title>
+  <meta name="description" content="Garagem 1000: a trilha sonora de todas as gerações!" />
+  <meta name="theme-color" content="#0a0a0c" />
+
+  <meta property="og:title" content="Garagem 1000 — Contratação de Shows" />
+  <meta property="og:description" content="Garagem 1000: a trilha sonora de todas as gerações!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="imagens/WhatsApp%20Image%202026-11-26%20at%2014.49.55.jpeg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/jpeg" href="imagens/WhatsApp%20Image%202026-11-26%20at%2014.49.55.jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Cabeçalho e menu mobile/tablet (oculto em Desktop >= 1024px para manter o layout Desktop intacto) -->
+  <header class="mobile-header">
+    <div class="mobile-header-bar">
+      <a href="#inicio" class="mobile-brand" aria-label="Garagem 1000 — Voltar ao início">
+        <img
+          src="imagens/WhatsApp%20Image%202026-11-26%20at%2014.49.55.jpeg"
+          alt="Logotipo da banda Garagem 1000"
+          width="36"
+          height="36"
+          decoding="async"
+          class="mobile-brand-logo"
+        />
+        <span class="mobile-brand-name">Garagem <span class="text-highlight">1000</span></span>
+      </a>
+      <button
+        id="mobile-menu-toggle"
+        type="button"
+        class="mobile-menu-btn"
+        aria-expanded="false"
+        aria-controls="mobile-nav-drawer"
+        aria-label="Abrir menu de navegação"
+      >
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="4" y1="6" x2="20" y2="6" />
+          <line x1="4" y1="12" x2="20" y2="12" />
+          <line x1="4" y1="18" x2="20" y2="18" />
+        </svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+    </div>
+
+    <div id="mobile-drawer-backdrop" class="mobile-drawer-backdrop" hidden></div>
+    <nav id="mobile-nav-drawer" class="mobile-drawer" aria-label="Navegação principal" hidden>
+      <ul class="mobile-nav-list">
+        <li><a href="#inicio" class="mobile-nav-link">Início</a></li>
+        <li><a href="#galeria" class="mobile-nav-link">Galeria</a></li>
+        <!-- <li><a href="#depoimentos" class="mobile-nav-link">Depoimentos</a></li> -->
+        <li><a href="#release" class="mobile-nav-link">Release</a></li>
+        <li><a href="#videos" class="mobile-nav-link">Vídeos do show</a></li>
+        <li><a href="#formatos" class="mobile-nav-link">Formatos de show</a></li>
+        <li><a href="#contato" class="mobile-nav-link mobile-nav-link--cta">Contratar show</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <!-- Hero -->
+    <section id="inicio" class="hero" aria-label="Apresentação Garagem 1000">
+      <img
+        src="imagens/WhatsApp%20Image%202026-11-26%20at%2014.50.32.jpeg"
+        alt="Banda Garagem 1000 em show ao vivo no palco com iluminação cênica e logotipo ao fundo"
+        width="2560"
+        height="1182"
+        class="hero-image"
+        fetchpriority="high"
+        decoding="async"
+      />
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <h1 class="hero-title rise-in">
+          Garagem <span class="text-highlight">1000</span>
+        </h1>
+        <p class="hero-subtitle rise-in">
+          A trilha sonora de todas as gerações!
+        </p>
+        <div class="hero-cta rise-in">
+          <a
+            href="https://wa.me/5513997851852?text=Ol%C3%A1%2C%20gostaria%20de%20contratar%20o%20show%20da%20Garagem%201000!"
+            data-whatsapp-text="Olá, gostaria de contratar o show da Garagem 1000!"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-cta btn-xl"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+            </svg>
+            CONTRATAR SHOW
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="section-container" aria-labelledby="galeria-heading">
+      <h2 id="galeria-heading" class="section-title">
+        Galeria<span class="text-highlight">.</span>
+      </h2>
+      <div class="gallery-grid">
+        <img
+          src="imagens/WhatsApp%20Image%202026-11-26%20at%2014.50.32%20(1).jpeg"
+          alt="Guitarrista da Garagem 1000 tocando guitarra ao vivo no palco"
+          width="901"
+          height="1599"
+          loading="lazy"
+          decoding="async"
+          class="gallery-item"
+        />
+        <img
+          src="imagens/WhatsApp%20Image%202026-11-26%20at%2014.50.32%20(2).jpeg"
+          alt="Baixista da Garagem 1000 em apresentação ao vivo sob iluminação vermelha"
+          width="899"
+          height="1599"
+          loading="lazy"
+          decoding="async"
+          class="gallery-item"
+        />
+        <img
+          src="imagens/WhatsApp%20Image%202026-11-26%20at%2014.50.32%20(3).jpeg"
+          alt="Vocalista e violonista da Garagem 1000 cantando e tocando violão no palco"
+          width="900"
+          height="1600"
+          loading="lazy"
+          decoding="async"
+          class="gallery-item"
+        />
+        <img
+          src="imagens/WhatsApp%20Image%202026-11-26%20at%2014.50.32%20(4).jpeg"
+          alt="Baterista da Garagem 1000 executando a bateria durante show ao vivo"
+          width="1200"
+          height="1600"
+          loading="lazy"
+          decoding="async"
+          class="gallery-item"
+        />
+        <img
+          src="imagens/WhatsApp%20Image%202026-11-26%20at%2014.50.33.jpeg"
+          alt="Formação completa da banda Garagem 1000 no palco sob iluminação roxa"
+          width="1600"
+          height="739"
+          loading="lazy"
+          decoding="async"
+          class="gallery-item gallery-item--wide"
+        />
+      </div>
+    </section>
+
+    <!-- Depoimentos (desativado temporariamente — descomente para reexibir)
+    <section id="depoimentos" class="section-container" aria-labelledby="depoimentos-heading">
+      <h2 id="depoimentos-heading" class="section-title">
+        Depoimentos<span class="text-highlight">.</span>
+      </h2>
+      <div class="testimonials-grid">
+        <blockquote class="testimonial-card">
+          <p class="testimonial-quote">
+            “Energia impecável do começo ao fim! O repertório agradou desde os mais jovens até quem viveu os clássicos nos anos 80 e 90.”
+          </p>
+          <footer class="testimonial-author">
+            Produção de Eventos
+            <span class="testimonial-role">Evento Corporativo</span>
+          </footer>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p class="testimonial-quote">
+            “Pontualidade, som muito bem equalizado e uma presença de palco contagiante. Todo mundo cantou junto a noite inteira.”
+          </p>
+          <footer class="testimonial-author">
+            Organização Cultural
+            <span class="testimonial-role">Festival &amp; Teatro</span>
+          </footer>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p class="testimonial-quote">
+            “A Garagem 1000 transformou a nossa festa em um momento inesquecível. Recomendo de olhos fechados para qualquer evento.”
+          </p>
+          <footer class="testimonial-author">
+            Contratante Particular
+            <span class="testimonial-role">Festa &amp; Comemoração</span>
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+    -->
+
+    <!-- Release -->
+    <section id="release" class="bg-surface" aria-labelledby="release-heading">
+      <div class="release-container">
+        <h2 id="release-heading" class="section-title">
+          Release<span class="text-highlight">.</span>
+        </h2>
+        <div class="release-body">
+          <p>
+            Com raízes desde 1982, a Garagem 1000 entrega um espetáculo vibrante que conecta gerações através dos maiores clássicos do rock e pop nacional e internacional.
+          </p>
+          <p>
+            Com uma formação entrosada de voz, violão, guitarra, baixo e bateria, a banda combina fidelidade musical, arranjos marcantes e forte interação com o público para transformar cada apresentação em uma experiência memorável.
+          </p>
+          <p class="is-shout">
+            ENERGIA AO VIVO, REPERTÓRIO IRRESISTÍVEL E QUALIDADE PROFISSIONAL EM CADA PALCO.
+          </p>
+          <p>
+            Dos teatros e grandes festivais a eventos corporativos, clubes e celebrações particulares, o show da Garagem 1000 se adapta perfeitamente à proposta do seu evento.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vídeos do show -->
+    <section id="videos" class="section-container" aria-labelledby="videos-heading">
+      <h2 id="videos-heading" class="section-title">
+        Vídeos do show<span class="text-highlight">.</span>
+      </h2>
+      <div class="video-card">
+        <iframe
+          src="https://www.instagram.com/reel/DfsRZdiRvaN/embed"
+          title="Vídeo do show da Garagem 1000"
+          loading="lazy"
+          class="video-embed"
+          allowfullscreen
+        ></iframe>
+        <div class="video-footer">
+          <a
+            href="https://www.instagram.com/reel/DfsRZdiRvaN/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-light btn-lg"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polygon points="6 3 20 12 6 21 6 3" />
+            </svg>
+            Assistir vídeo
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formatos de show -->
+    <section id="formatos" class="section-container" aria-labelledby="formatos-heading">
+      <h2 id="formatos-heading" class="section-title">
+        Formatos de show<span class="text-highlight">.</span>
+      </h2>
+      <article class="plan-card">
+        <div class="plan-header">
+          <p class="plan-badge">Plano A</p>
+          <h3 class="plan-name">Show Completo — Banda Garagem 1000</h3>
+        </div>
+        <div class="plan-body">
+          <div class="plan-details">
+            <div>
+              <p>
+                Apresentação ao vivo com a banda completa (voz e violão, guitarra, baixo e bateria), estrutura musical pensada para envolver o público do primeiro ao último acorde.
+              </p>
+            </div>
+            <div>
+              <h4 class="plan-subheading">Repertório e estilo musical</h4>
+              <p>
+                Grandes clássicos do rock nacional, pop rock e sucessos internacionais que marcaram época dos anos 80 aos dias atuais — a trilha sonora perfeita para todas as gerações.
+              </p>
+            </div>
+            <div>
+              <h4 class="plan-subheading">Tipo de evento indicado</h4>
+              <p>
+                Eventos corporativos, festivais, unidades culturais, teatros, clubes, casas de show, casamentos e festas particulares.
+              </p>
+            </div>
+          </div>
+
+          <aside class="plan-aside">
+            <p class="plan-price-label">Preço</p>
+            <p class="plan-price-value">Sob consulta</p>
+            <p class="plan-notice">
+              Valores variam conforme data, cidade, duração do show e necessidade de sonorização.
+            </p>
+            <a
+              href="https://wa.me/5513997851852?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Plano%20A%20(Show%20Completo)%20da%20Garagem%201000!"
+              data-whatsapp-text="Olá, tenho interesse no Plano A (Show Completo) da Garagem 1000!"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-cta btn-xl btn-full"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+              </svg>
+              QUERO ESSE PLANO
+            </a>
+          </aside>
+        </div>
+      </article>
+    </section>
+
+    <!-- CTA Final -->
+    <section id="contato" class="cta-band" aria-labelledby="cta-heading">
+      <div class="cta-inner">
+        <h2 id="cta-heading" class="cta-title">
+          VAMOS LEVAR ESSE SHOW PARA O SEU EVENTO?
+        </h2>
+        <p class="cta-description">
+          Entre em contato para consultar disponibilidade e conversar sobre a contratação.
+        </p>
+        <div class="cta-primary-btn">
+          <a
+            href="https://wa.me/5513997851852?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20sobre%20a%20contrata%C3%A7%C3%A3o%20da%20Garagem%201000%20para%20o%20meu%20evento!"
+            data-whatsapp-text="Olá, gostaria de falar sobre a contratação da Garagem 1000 para o meu evento!"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-light btn-xl"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+            </svg>
+            FALAR SOBRE MEU EVENTO
+          </a>
+        </div>
+
+        <!-- Construtor rápido de mensagem -->
+        <div class="message-builder" aria-labelledby="builder-heading">
+          <h3 id="builder-heading" class="message-builder-title">Monte sua mensagem em segundos</h3>
+          <p class="message-builder-subtitle">
+            Preencha os detalhes do seu evento para agilizar o orçamento pelo WhatsApp.
+          </p>
+          <div class="builder-grid">
+            <div class="builder-field">
+              <label for="builder-event-type" class="builder-label">Tipo de evento</label>
+              <select id="builder-event-type" class="builder-input">
+                <option value="Evento corporativo">Evento corporativo</option>
+                <option value="Festa particular">Festa particular</option>
+                <option value="Festival / Teatro">Festival / Teatro</option>
+                <option value="Casamento / Formatura">Casamento / Formatura</option>
+                <option value="Bar / Casa de show">Bar / Casa de show</option>
+              </select>
+            </div>
+            <div class="builder-field">
+              <label for="builder-city-date" class="builder-label">Cidade e data</label>
+              <input
+                id="builder-city-date"
+                type="text"
+                class="builder-input"
+                placeholder="Ex.: São Paulo — 15/12"
+              />
+            </div>
+            <div class="builder-field">
+              <label for="builder-guests" class="builder-label">Público estimado</label>
+              <input
+                id="builder-guests"
+                type="text"
+                class="builder-input"
+                placeholder="Ex.: 200 pessoas"
+              />
+            </div>
+          </div>
+          <div id="builder-preview" class="builder-preview" aria-live="polite"></div>
+          <div class="builder-actions">
+            <a
+              id="builder-send"
+              href="https://wa.me/5513997851852"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-light btn-lg"
+            >
+              Enviar pelo WhatsApp
+            </a>
+            <button id="builder-copy" type="button" class="btn btn-dark-ghost btn-lg">
+              Copiar mensagem
+            </button>
+          </div>
+          <p id="builder-status" class="builder-status" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    Garagem 1000
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
